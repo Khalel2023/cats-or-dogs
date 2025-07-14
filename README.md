@@ -6,6 +6,8 @@
 - Датасет взят с Kaggle: https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset 
 - Подготовка данных (автоматическое разделение на train/test) скрипт split_data.py
 Структура данных после обработки
+
+
 PetImages/
 ├── train/ # Обучающая выборка
 │ ├── dog/ # Изображения собак (dog.1.jpg, dog.2.jpg)
@@ -13,7 +15,10 @@ PetImages/
 └── test/ # Тестовая выборка
 ├── dog/ # Тестовые изображения собак
 └── cat/ # Тестовые изображения кошек
-- Модель CNN с BatchNorm и Dropout 
+
+
+
+- Так же модель CNN с BatchNorm и Dropout 
 - Визуализация метрик
 ## Установка
 ```bash
