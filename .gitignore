@@ -1,0 +1,72 @@
+### Python ###
+# Виртуальное окружение
+venv/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+### IDE ###
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vsc.xml
+.idea/shelf/
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### Данные ###
+# Локальные данные
+*.sqlite
+*.sqlite3
+*.db
+
+# Логи и кэш
+*.log
+.nox/
+.coverage
+*.cache
+.pytest_cache/
+.mypy_cache/
+
+### Системные файлы ###
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*~
