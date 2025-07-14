@@ -5,21 +5,16 @@
 ## Особенности
 - Датасет взят с Kaggle: https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset 
 - Подготовка данных (автоматическое разделение на train/test) скрипт split_data.py
-Структура данных после обработки
-
-
+- Модель CNN с BatchNorm и Dropout 
+- Визуализация метрик
 PetImages/
 ├── train/ # Обучающая выборка
-│ ├── dog/ # Изображения собак (dog.1.jpg, dog.2.jpg)
-│ └── cat/ # Изображения кошек (cat.1.jpg, cat.2.jpg)
+│ ├── dog/ # Изображения собак (например dog001.jpg)
+│ └── cat/ # Изображения кошек (например cat001.jpg)
 └── test/ # Тестовая выборка
-├── dog/ # Тестовые изображения собак
-└── cat/ # Тестовые изображения кошек
+├── dog/ # Изображения собак для тестирования
+└── cat/ # Изображения кошек для тестирования
 
-
-
-- Так же модель CNN с BatchNorm и Dropout 
-- Визуализация метрик
 ## Установка
 ```bash
 git clone https://github.com/Khalel2023/cats-or-dogs.git
