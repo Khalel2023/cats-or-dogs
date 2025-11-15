@@ -8,8 +8,8 @@
 
 - Dataset from Kaggle: [Dog and Cat Classification Dataset](https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset)
 (you can see the examples bellow)
-![Dog image example](screenshots/51.jpg)
-![Cat image example](screenshots/2.jpg)  
+![Dog image example](cat-or-dogs/51.jpg)
+![Cat image example](cat-or-dogs/2.jpg)  
 - Data preparation (automatic train/test split) using `split_data.py`  
 - CNN model with Batch Normalization and Dropout  
 - Visualization of metrics (accuracy, loss, etc.)  
